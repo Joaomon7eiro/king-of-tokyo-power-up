@@ -1,8 +1,5 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:kingoftokyo/data/EVOLUTIONS_DATA.dart';
 import 'package:easy_dialog/easy_dialog.dart';
 import '../models/monster.dart';
 import '../models/evolution.dart';
@@ -108,6 +105,9 @@ class _MonsterGamePageState extends State<MonsterGamePage> {
             ),
             FlatButton(
               onPressed: () {
+                setState(() {
+                  e.isActive = false;
+                });
                 Navigator.pop(context);
               },
               child: Text(
