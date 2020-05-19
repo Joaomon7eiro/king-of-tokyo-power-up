@@ -1,6 +1,6 @@
 # kingoftokyo
 
-A new Flutter application.
+A new Flutter application for the game kot.
 
 ## Getting Started
 
